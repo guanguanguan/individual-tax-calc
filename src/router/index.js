@@ -6,7 +6,7 @@ Vue.use(Router)
 
 export default new Router({
 	routes: [{
-		path: '/el',
+		path: '/',
 		name: 'Index',
 		component: Index
 	}]
