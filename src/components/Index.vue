@@ -73,7 +73,7 @@
 								<el-col :span="24">
 									<el-card shadow="hover">
 										<template v-for='item in taxList'>
-											{{ item.month }}月预扣税额:{{ item.salary }}×1-{{ item.insurance }}×1-{{ item.deduction }}×1-{{ item.base }}×1={{ item.taxTotal }}×{{ item.rate }}%-{{ item.number }}={{ item.realTax }}元
+											{{ item.month }}月预扣税额:{{ item.salary }}×{{ item.month }}-{{ item.insurance }}×{{ item.month }}-{{ item.deduction }}×{{ item.month }}-{{ item.base }}×{{ item.month }}={{ item.taxTotal }}×{{ item.rate }}%-{{ item.number }}={{ item.realTax }}元
 											<br />
 											{{ item.month }}月实发工资:{{ item.salary }}-{{ item.insurance }}-{{ item.realTax }}={{ item.realSalary }}
 											<br /><br />
