@@ -1,6 +1,9 @@
 1
+<<<<<<< HEAD
 2
 3
+=======
+>>>>>>> parent of cb32aad... 2
 # individual-tax-calc
 
 > A Vue.js project
