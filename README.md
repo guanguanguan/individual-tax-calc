@@ -1,3 +1,4 @@
+1
 # individual-tax-calc
 
 > A Vue.js project
